@@ -2,3 +2,20 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Have a variable that would hold the random number that is generated.
+
+- A variable for the number of chances the player gets.
+
+- A variable for the number the player inputs for the guess.
+
+- Have a compare logic operator to see if the number generated and the number the player has imputed is exactly the same.
+
+- Have it loop if the guesses are wrong until the max number of guesses or get it correct
+
+- The output if the player guesses wrong would loop them back to the input stage of entering a number they are guessing.
+
+- Have a logic condition of when the player get a correct number or reach the max number of guesses
+
+- The first output if the guess correctly would be congratulation you got the correct answer.
+
+- The second output for the max numbers has been reached with the output having “You have reached the max limit the correct number is” the variable that is used to hold the number generated.

@@ -2,3 +2,21 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Task B: Find the Spot
+Task: Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. The customer can move north, south, east, or west.
+
+Hints: Loops, Variables
+
+- I assume that the person asking to map the set location in a large warehouse has the starting location pick out on the north side of the building
+
+- There will be variables for the four cardinal directions such as North, East, West, and South.
+
+- Will will continue to loop until hitting a different direction which will print the number of steps and give them a prompt to choose three options.
+
+- There will be a variable that would hold a word reset so that when the customer made a mistake or traveled to the wrong location they can start back at the entrance.
+
+- It will loop adding a number to the cardinal directions to keep track of how many times a certain direction is picked.
+
+- It will occasionally give a choice between the number 1 or 2 for 1 being reset, 2 for continuation on the path, and 3 for when they arrived at the destination.
+
+- When the customer picks 3 it will have displayed the amount of direction in the order they have started at to the location that they have arrived at.

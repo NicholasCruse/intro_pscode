@@ -2,3 +2,34 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Task C: Product Package Counter
+Task: You need to develop a program that counts the number of items that a hardware device scans to sort for boxing packages into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages. Write a program that prints numbers from 2 to 50, counting by twos.
+
+Hint: Loops
+
+- There are two variable one for packages and the second for the case
+
+- The variable for the program will start with the letter P standing for package.
+
+- The  variable for the case would be the letter C standing for cases
+
+- Since each package contains 2 products we're going to make the variable P hold the number 2.
+
+- Case would start with the integer 0.
+
+- Where going to do a loop.
+
+- When a package is scanned we're going to have a loop using the === operator.
+
+-On one side of the === operator we're going to have the integer 50. 
+
+- While on the other side of the operator  is going to have the variable C.
+
+- where going to use the operate + to add the variable P to the Variable C
+
+- On the second line will print the number of what the Variable C has. The statement would print the current number of Products in the case by using the line “There are” C “Products in the case”
+
+- The loop will last unit the case reaches to the number 50 which is the max capacity for the product
+
+- The statement at the end of the loop would print out the line “The case has reached the maximum capacity of” C.
+
